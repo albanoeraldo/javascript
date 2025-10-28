@@ -6,7 +6,7 @@
     <title>Verificador de Idade</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="verificar()">
+<body>
     <header>
         <h1>Verificador de Idade</h1>
     </header>
@@ -16,18 +16,17 @@
 
             <div class="linha">
                 <label>Sexo:</label>
-                <input type="radio" name="sexo" value="masculino" id="masculino">
+                <input type="radio" name="sexo" value="masculino" id="masculino" checked>
                 <label for="masculino">Masculino</label>
                 <input type="radio" name="sexo" value="feminino" id="feminino">
                 <label for="feminino">Feminino</label>
             </div>
 
-            <input type="button" value="Verificar">
-
-            <p>Preencha os dados acima para ver o resultado!</p>
+            <input type="button" value="Verificar"  onclick="verificar()">
+            
         </div>
-        <div id="foto">
-            <img id="imagem" src="criancaH.jpg" alt="crianca" class="foto1">
+        <div id="res">
+            <p>Preencha os dados acima para ver o resultado!</p>
         </div>
     </section>
     <footer>

@@ -27,6 +27,10 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
 }
 
+div {
+    padding-bottom: 10px;
+}
+
 input {
     padding: 3px;
 }
@@ -36,16 +40,17 @@ input {
   margin-bottom: 20px;
 }
 
-p {
-  margin-top: 20px;
+div#res p {
+    padding: 10px;
+    text-align: center;
 }
 
-div#foto img.foto1 {
+img#foto {
     width: 300px;
-    padding: 20px;
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
     display: block;
     margin: auto;
 }
