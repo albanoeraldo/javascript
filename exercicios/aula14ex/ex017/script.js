@@ -12,7 +12,7 @@ function gerar() {
     var n = Number(num.value)
 
     // Limpa o resultado antes de gerar - TIVE AJUDA NESSA PARTE
-    res.innerHTML = ''
+    res.innerHTML = `A Tabuada de ${n} é:<br>`
 
     // gera a tabuada de 1 a 10
     for (var c = 1; c <= 10; c++) {

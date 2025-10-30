@@ -26,8 +26,18 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
 }
 
+div#form {
+    margin-bottom: 20px;
+}
+
 div#res {
+    background-color: rgba(211, 211, 211, 0.527);
+    width: 200px;
+    margin: auto;
     padding: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px rgba(211, 211, 211, 0.527);
+    border-radius: 8px;
 }
 
 footer {
