@@ -13,7 +13,7 @@ function contar(){
     // Converte os valores para número
     var i = Number(ini.value)
     var f = Number(fim.value)
-    var p = Number(passo.value)
+    var p = Number(pas.value)
 
     // Ajusta o passo se for 0
     if (p <= 0) {
